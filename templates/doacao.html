@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2 | doação</title>
+
+    <link rel="stylesheet" href="{{ url_for("static", filename="css/main.css") }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
+
+</head>
+<body>
+
+    <div class="logo_fundo"></div>
+
+    <div class="center">
+        <h6>PDV SV MAXGUI-2</h6>
+        <h1>Doações</h1>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="center">
+        <form>
+            <button type="submit">fazer doação ao site</button>
+            <br>
+            <br>
+
+            Doacão de troco:<br>
+            <select>
+                <option value="1">PDV SV MAXGUI 2</option>
+                <option value="1">aleatorio</option>
+            </select>
+        </form>
+    </div>
+
+    <hr>
+
+    <h2>Por que doar?</h2>
+    <p>Ao fazer uma doação, você está ajudando a manter o <strong>PDV SV MAXGUI-2</strong> em funcionamento e garantindo que possamos continuar oferecendo ferramentas práticas e seguras para todos os usuários.</p>
+
+    <p>Se preferir, sua contribuição também pode ir diretamente para instituições confiáveis, ajudando pessoas, animais ou projetos sociais que realmente precisam. Cada doação, pequena ou grande, faz a diferença!</p>
+
+    <p>Ao doar pelo nosso site, você tem a certeza de que o valor será repassado corretamente, seja para manter o sistema ou apoiar uma instituição escolhida. Transparência e segurança são nossas prioridades.</p>
+
+    <p><strong>Contribua hoje e faça a diferença!</strong></p>
+
+    {% include "/includes/footer.html" %}
+</body>
+</html>

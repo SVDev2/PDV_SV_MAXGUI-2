@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2 | cookies</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/cookie.png') }}">
+</head>
+<body>
+<div class="banner">
+    <div class="cookies_msg" id="cookies">
+        <div class="cookies_txt">
+            <p>Este site utiliza cookies para garantir que você tenha a melhor experiência. Saiba mais na nossa <a href="/cookies">[Política de cookies]</a></p>
+        <div class="cookies_btn">
+            <button class="btn_cookie" id="aceitar">Aceitar todos</button>
+            <button class="btn_cookie" id="selecionar">Selecionar</button>
+            <button class="btn_cookie" id="essenciais">Apenas essenciais</button>
+        </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/cookies.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2 | entrar</title>
+
+    <link rel="stylesheet" href="{{ url_for("static", filename="css/main.css") }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
+
+</head>
+<body>
+
+    <div class="logo_fundo"></div>
+
+    <div class="center">
+        <h6 class="cor6">PDV SV MAXGUI-2</h6>
+        <h1 class="c3">ENTRAR</h1>
+    </div>
+    <hr>
+    <hr>
+
+    <form>
+        <label>Usuario:</label><br>
+        <input type="text" placeholder="ex:João" id="user"><br><br>
+
+        <label>Senha:</label><br>
+        <input type="password" placeholder="ex: abc123" id="senha"><br><br>
+
+        <label>Estabelecimento:</label><br>
+        <input type="text" placeholder="ex: PDstore" id="loja">
+
+        <h6 class="c1" id="resposta"></h6>
+
+        <button type="button" class="center btn_entrar" onclick="conferLog()">entrar</button>
+    </form>
+
+    <div class="neblina center">
+        <br>
+        <a href="/redefinir-senha">⮕Esqueceu a senha?</a><br>
+        <a href="/cadastrar">⮕Não tem conta?</a>
+    </div>
+
+    {% include "/includes/propagandas_slide.html" %}
+    {% include "/includes/footer.html" %}
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+</body>
+</html>

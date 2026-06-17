@@ -1,0 +1,92 @@
+ideia inicial:
+
+"""• inicialmente feito em Python+flask+html+css+javascript
+• senha de adm (para adcionar ou editar produto ou codigo, cancelar venda, criar/remover "usuário")
+• banco de dados com "sqlite3" (para login de funcionários, produtos, código dos produtos)
+• enviar comprovante de compra via watsapp para o cliente caso ele queira (apenas abre o watsapp com o link do comprovante)
+• relatório do dia via no final do dia (ou no horário definido pelo adm PRO) (adm PRO  escolhe se o relatório será na própria interface, via email, link pdf na interface)
+• suporte para leitor de codigo de barras
+• todas as senhas (e outras informações sensíveis) serão criptografadas 
+
+1. o relatório tera: data, total(R$) de vendas, quantidade(qtd) de vendas, operador  do caixa no dia (se for vários mostra o nome e o valor que cada um vendeu), resumo do dia, o quanto aquele dia foi bom (em relação aos outros), qual o operador vendeu mais, etc. (lembrando que o adm PRO que deside se quer um relatório mais completo ou não).
+2. tem 4 tipo de usuário 
+• adm PRO (superior provavelmente o dono)
+• adm (pessoa com nomenclatura superior ao operador e que tem mais dereitos no sistema provavelmente o gerente)
+• operador (apenas vende sem nenhuma  autoridade sobre o sistema)
+• visualizador (não é usuário é apenas para conferir valor mas no relatório aperece o nome do usuário logado com  nomenclatura "visualizador" e quantas vezes no dia visualizou o valor de determinado produto)
+(lembrando que essa é a configuração original mas o adm PRO pode mudar a função e o que cada um pode fazer)"""
+
+informações (sobre):
+    Versão: 0.3.2 alpha
+    Nome do projeto: PDV SV MAXGUI-2
+    Data de inicio do projeto: 25/01/2026
+    Termino do projeto: Desenvolvimento contínuo
+    Apoiadores: ~
+    Tipo: Web
+    Programadores: SER VIVO
+    Ideia de: SER VIVO
+    Nome real de SER VIVO: ~
+    Classificação indicativa: Técnico/Livre
+
+bibliotecas que possivelmente serão utilizadas:
+from email.mime.multipart import MIMEMultipart
+from flask import Flask, render_template
+from email.mime.text import MIMEText
+from reportlab.lib.pagesizes import A4
+from reportlab.pdfgen import canvas
+from dataclasses import dataclass
+from datetime import datetime
+import webbrowser
+import secrets
+import smtplib
+import hashlib
+import sqlite3
+import json
+import csv
+import os
+
+
+organização da pasta:
+
+site_PDV_SV_MAXGUI-2/
+    templates/
+        inicio.html
+        sobre.html
+        entrar.html
+        cadastrar.html
+        privacidade.html
+        termos.html
+        doacao.html 
+        configuracoes.html
+        rotas.html
+        cookies.html
+        idioma_config.html
+        includes/
+            banner_cookies.html
+            propagandas_slide.html
+    static/
+        css/
+            main.css
+        imagens/
+            propagandas/
+                xxxxxxxxxx.jpg.ico.jpeg...
+            fundos/
+                xxxxxxxxxx.jpg.ico.jpeg...
+            logos/
+                xxxxxxxxxx.jpg.ico.jpeg...
+        js/
+            propagandas_slide.js
+            relatorios.js
+            produtos.js
+            cookies.js
+            vendas.js
+            main.js
+            login.js
+    dados/
+        banco.py
+    managers/
+        login.py
+        relatorios.py
+        produtos.py
+    app.py
+    anotação_PDV.txt

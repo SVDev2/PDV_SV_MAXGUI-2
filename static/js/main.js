@@ -1,0 +1,1 @@
+alert("seja bem-vindo(a) ao PDV SV MAXGUI-2. AVISO: O sistema é gratuito e inicial, por isso nos primeiros meses, exibirá anuncios para ajudar a continuar com o projeto.");

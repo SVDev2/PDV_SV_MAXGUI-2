@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2 | cadastrar</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
+    
+</head>
+<body>
+    
+    <div class="logo_fundo"></div>
+    
+    <div class="center">
+        <h6 class="cor6">PDV SV MAXGUI-2</h6>
+        <h1 class="c3">CADASTRAR</h1>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="center">
+        <form>
+            escolha o tipo de login:<br>
+            <select onchange="tipoLog(this.value)">
+                <option value="pro">adm pro</option>
+                <option value="adm">adm</option>
+                <option value="operador">operador</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="cadastro_user active">
+        <h2>Dados do responsavel</h2><br>
+
+        <label>Nome completo:*</label><br>
+        <input type="text" placeholder="ex: João Souza" id="name"><br><br>
+
+        <label>CPF:*</label><br>
+        <input type="text" placeholder="ex: 000.000.000-00" id=""><br><br>
+
+        <label>Telefone:</label><br>
+        <input type="tel" placeholder="ex: (55) 00 9.0000-0000" id=""><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="ex: 123abc@gmail.com" id="Email"><br><br>
+
+        <label>Senha:*</label><br>
+        <input type="password" placeholder="ex: abc123" id="senha"><br><br>
+
+        <label>Confirme a senha:*</label><br>
+        <input type="password" placeholder="ex: abc123" id="senha"><br><br><br>
+        
+        <h2>Dados do estabelecimento</h2><br>
+        
+        <label>Nome:*</label><br>
+        <input type="text" placeholder="ex: PDstore" id="name"><br><br>
+
+        <label>CPF/CNPJ:*</label><br>
+        <input type="text" placeholder="ex: 000.000.000-00" id=""><br><br>
+
+        <label>Telefone:</label><br>
+        <input type="tel" placeholder="ex: (55) 00 9.0000-0000" id=""><br><br>
+
+        <label>Email:*</label><br>
+        <input type="email" placeholder="ex: 123abc@gmail.com" id="Email"><br><br>
+    </div>
+
+    <div class="cadastro_user">
+        
+    </div>
+
+    <div class="cadastro_user">
+    </div>
+
+    {% include "includes/propagandas_slide.html" %}
+    {% include "/includes/footer.html" %}
+    {% include "/includes/banner_cookies.html" %}
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+
+</body>
+</html>

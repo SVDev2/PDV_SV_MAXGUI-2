@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
+
+</head>
+<body>
+    <div class="logo_fundo"></div>
+
+    <div class="center">
+        <h1>Seja bem-vindo(a)!</h1>
+        <h6 class="c1">Ao seu melhor sistema de PDV</h6>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="center" id="btn-opc">
+        <a href="/entrar"><button class="btn_inicio"> ENTRAR </button></a><br><br>
+        <a href="/cadastrar"><button class="btn_inicio"> CADASTRAR </button></a><br><br>
+        <a href="https://youtu.be/tfPtk6mI1Xg?si=TZxH4ZE7uoWSrU4-"><button class="btn_inicio">▶Tutorial de uso</button></a><br>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <div class="center">
+    <h2>PDV SV MAXGUI-2</h2>
+    </div>
+
+    <p>Vou contar em poucos versos<br>
+De forma simples e direta,<br>
+De um sistema bem pensado<br>
+Para a venda ficar correta.</p><br>
+
+    <p>É o <strong>PDV SV MAXGUI-2</strong>,<br>
+Ferramenta de valor,<br>
+Que organiza o seu caixa<br>
+E ajuda bem o vendedor.</p><br>
+
+    <p>Registra venda ligeiro,<br>
+Guarda produto e razão,<br>
+Traz mais ordem no serviço<br>
+E controle na gestão.</p><br>
+
+    <p>Se já tem seu cadastro<br>
+Basta então logo Entrar,<br>
+Se ainda não tem acesso<br>
+Pode também Cadastrar.</p>
+
+    {% include "/includes/footer.html" %}
+    {% include "/includes/banner_cookies.html" %}
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+</html>

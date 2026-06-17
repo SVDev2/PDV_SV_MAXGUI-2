@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2 | mult_rotas</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
+</head>
+<body>
+
+    <div class="logo_fundo"></div>
+
+    <div class="center">
+        <h6>PDV SV MAXGUI-2</h6>
+        <h1>mult_rotas</h1>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="center">
+        <a href="/"><button class="btn_config">inicio</button></a><br><br>
+        <a href="/cadastrar"><button class="btn_config">cadastrar</button></a><br><br>
+        <a href="/entrar"><button class="btn_config">entrar</button></a><br><br>
+        <a href="/configuracoes"><button class="btn_config">configurações</button></a><br><br>
+        <a href="/doacao"><button class="btn_config">doação</button></a><br><br>
+        <a href="/sobre"><button class="btn_config">sobre</button></a><br><br>
+        <a href="/termos"><button class="btn_config">Termos de Uso</button></a><br><br>
+        <a href="/privacidade"><button class="btn_config">Politica de privacidade</button></a><br><br>
+        <a href="/cookies"><button class="btn_config">politica de cookies</button></a><br><br>
+        <a href="/banner"><button class="btn_config">banner de cookies</button></a><br><br>
+        <a href="/rotas"><button class="btn_config">rotas</button></a><br><br>
+        <a href="/redefinir-senha"><button class="btn_config">redefinir senha</button></a><br><br>
+        <a href="/propagandas-slide"><button class="btn_config">propagandas slide</button></a><br><br>
+        <a href="/desenvolvimento"><button class="btn_config">msg desenvolvimento</button></a><br>
+    </div>
+
+{% include "/includes/footer.html" %}
+</body>
+</html>

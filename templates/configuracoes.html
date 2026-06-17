@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2 | Configurações</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/main.css") }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
+</head>
+<body>
+
+    <div class="logo_fundo"></div>
+
+    <a href="/termos"><button class="cantoSE">voltar</button></a>
+
+    <div class="center">
+        <h6>PDV SV MAXGUI-2</h6>
+        <h1>Configurações</h1>
+    </div>
+    <hr>
+    <hr>
+
+    <section>
+    <h2>Conta</h2>
+    <a href=""><button class="btn_config">Meus dados</button></a><br>
+    <a href=""><button class="btn_config">Alterar senha</button></a><br>
+    <a href=""><button class="btn_config">Excluir conta</button></a><br>
+    </section>
+
+    <hr>
+
+    <section>
+    <h2>???</h2>
+    <a href="/privacidade"><button class="btn_config">Política de privacidade</button></a><br>
+    <a href=""><button class="btn_config">Configurações de cookies</button></a><br>
+    <a href="/termos"><button class="btn_config">Termos de uso</button></a><br>
+    </section>
+
+    <hr>
+
+    <section>
+    <h2>Doações/Patrocínio</h2>
+    <a href="/doacao"><button class="btn_config">Doação de troco</button></a><br>
+    <a href="/doacao"><button class="btn_config">Doar para o site</button></a><br>
+    <a href=""><button class="btn_config">Ser um patrocinador</button></a><br>
+    </section>
+
+    <hr>
+
+    <section>
+    <h2>Preferências</h2>
+    <a href=""><button class="btn_config">Notificações</button></a><br>
+    <button class="btn_config">Idioma</button><br>
+    </section>
+
+    {% include "/includes/footer.html" %}
+</body>
+</html>
