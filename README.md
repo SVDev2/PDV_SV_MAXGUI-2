@@ -1,4 +1,4 @@
-# ![PDV](static/imagens/logos/logo.png) **PDV SV MAXGUI-2**
+# ![PDV](./static/imagens/logos/logo.png) **PDV SV MAXGUI-2**
 
 Sistema de Ponto de Venda (PDV) desenvolvido em Python com Flask.
 
