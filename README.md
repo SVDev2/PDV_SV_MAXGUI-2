@@ -1,29 +1,33 @@
 # ![PDV](/static/imagens/logos/logo.png) **PDV SV MAXGUI-2**
 
-Sistema de Ponto de Venda (PDV) desenvolvido em Python com Flask.
-
-Projeto criado com foco em aprendizado prático e evolução para um sistema completo de gestão comercial.
-
----
-
 ## 🚀 Sobre o projeto
 
-Este sistema foi desenvolvido para prática de programação e criação de um PDV funcional.
+O **PDV SV MAXGUI-2** é um sistema de ponto de venda em desenvolvimento com Flask.
 
-Ele tem como objetivo simular um sistema real de vendas, com controle de produtos, estoque e usuários.
+O objetivo é evoluir para uma aplicação completa de gestão comercial para pequenos e médios negócios, incluindo controle de vendas, estoque e usuários.
+
+Ele será *100% gratis*
 
 ---
 
-## ⚙️ Funcionalidades
+## ⚙️ Status das funcionalidades
 
-- ✔ Login de funcionários
-- ✔ Cadastro de produtos
-- ✔ Controle de estoque
-- ✔ Sistema de vendas
-- ✔ Banco de dados SQLite
-- ✔ Interface web com Flask
-- ✔ Sistema de permissões (admin, operador, visualizador)
-- ✔ Relatórios (em desenvolvimento)
+### 🟢 Implementadas
+- Estrutura base do sistema
+- Sistema de páginas (Flask)
+
+### 🟡 Em desenvolvimento
+- Login de usuários
+- propagandas tipo slide
+- tradução para diversos idiomas (i18n)
+
+### 🔴 Planejadas
+- Controle de estoque
+- Sistema de vendas
+- Relatórios
+- Exportação de PDF
+- Gráficos
+- API de integração
 
 ---
 
@@ -32,8 +36,8 @@ Ele tem como objetivo simular um sistema real de vendas, com controle de produto
 - Python 🐍
 - Flask 🌐
 - SQLite 🗄️
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
 ---
@@ -83,8 +87,16 @@ site_PDV_SV_MAXGUI-2/
         produtos.py
     app.py
     anotação_PDV.txt
-    
 ```
+---
+
+## 📚 bibliotecas
+
+
+🟢 utilizadas
+
+
+🟡 possivelmente serão utilizadas
 
 ---
 
@@ -114,42 +126,37 @@ http://127.0.0.1:5000
 
 ---
 
-## 📌 Status do projeto
+## 📌 Informações do projeto
 
-🟡 Em desenvolvimento (Alpha)
-
+- **Nome: PDV SV MAXGUI-2**
+- **Tipo:** Sistema Web
+- **Status:** Em desenvolvimento (Alpha)
+- **Início:** 25/01/2026
+- **Desenvolvedor:** SER VIVO (SVDev2)
 ---
 
-## 🧭 Próximas melhorias
+## 🧠 Arquitetura
 
-- IA integrada para relatórios inteligentes
-- Gráficos de vendas
-- Exportação de PDF
-- Sistema de backup automático
-- Melhorias de UI/UX
-- Integração com WhatsApp
-- Leitor de código de barras
+- Frontend: HTML, CSS, JS
+- Backend: Flask (Python)
+- Banco de dados: SQLite
+- Organização: modular (managers, templates, static)
 
----
-
-##detalhes:
-- **Versão:** 0.3.2 Alpha
-    - **Nome do projeto: PDV SV MAXGUI-2**
-    - **Data de início do projeto:** 25/01/2026
-    - **Término do projeto:** Desenvolvimento contínuo
-    - **Apoiadores:** ~
-    - **Tipo:** Web
-    - **Programadores: SER VIVO** *(SVDev2)*
-    - **Ideia de: SER VIVO** *(SVDev2)*
-    - **Nome real de SER VIVO:** Dennis Alexandre
-    - **Classificação indicativa:** Técnico/Livre
-    - **ferramentas/tecnologias utilizadas:**
-    - **Linguagens:** Python, HTML, CSS, JavaScript
-    - **Framework:** Flask
-    - **Banco de dados:** SQLite
-    - *Front-end responsivo para celulares e desktops*
 ---
 
 ## 📄 Observações
 
-Este projeto está em constante desenvolvimento e pode sofrer mudanças ao longo do tempo.
+Este projeto está em fase inicial de desenvolvimento e passará por melhorias contínuas ao longo do tempo.
+
+---
+
+## 📸 Demonstração do sistema
+
+### 🏠 Tela inicial
+![Home 1](static/imagens/prints/home1.png)
+![Home 2](static/imagens/prints/home2.png)
+![Home 3](static/imagens/prints/home3.png)
+![Home 4](static/imagens/prints/home4.png)
+
+### banner cookies
+![Banner cookies](static/imagens/prints/cookies.png)
