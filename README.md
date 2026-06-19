@@ -19,7 +19,7 @@ O PDV SV MAXGUI-2 é um sistema gratuito para uso em pequenos, médios e grandes
 
 ### 🟡 Em desenvolvimento
 - Login de usuários
-- propagandas tipo slide
+- Sistema de propagandas em slide
 - tradução para diversos idiomas (i18n)
 
 ### 🔴 Planejadas
@@ -147,9 +147,38 @@ http://127.0.0.1:5000
 
 ## 📚 bibliotecas
 
-🟢 utilizadas
+As bibliotecas e módulos abaixo são utilizados no projeto ou estão previstos para futuras funcionalidades.
 
-🟡 possivelmente serão utilizadas
+🟢 Utilizadas
+
+    📦 Bibliotecas externas
+
+        - Flask
+        - Pillow
+        - ReportLab
+
+    🐍 Biblioteca padrão do Python
+
+        - email.mime
+        - datetime
+        - hashlib
+        - secrets
+        - sqlite3
+
+🟡 Possivelmente serão utilizadas
+
+    📦 Bibliotecas externas
+
+        - 
+
+    🐍 Biblioteca padrão do Python
+
+        - dataclsss
+        - webbrowser
+        - smtplib
+        - json
+        - csv
+        - os
 
 ---
 
@@ -181,4 +210,4 @@ Este projeto está em fase inicial de desenvolvimento e passará por melhorias c
 
 ---
 
-© 2026 PDV SV MAXGUI-2. Todos os direitos reservados.
+© 2026 PDV SV MAXGUI-2.
