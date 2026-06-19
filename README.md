@@ -155,7 +155,7 @@ http://127.0.0.1:5000
 
 ## 🤝 Contribuição
 
-###Contribuições são bem-vindas!
+### Contribuições são bem-vindas!
 
 Se quiser ajudar no projeto:
 
@@ -178,3 +178,7 @@ Você pode usar, modificar e distribuir este projeto, desde que siga os termos d
 ## 📄 Observações
 
 Este projeto está em fase inicial de desenvolvimento e passará por melhorias contínuas ao longo do tempo.
+
+---
+
+© 2026 PDV SV MAXGUI-2. Todos os direitos reservados.
