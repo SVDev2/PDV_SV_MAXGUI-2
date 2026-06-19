@@ -1,6 +1,6 @@
 ![PDV](static/imagens/logos/logo.png)
 
-#**PDV SV MAXGUI-2**
+# **PDV SV MAXGUI-2**
 
 ## 🚀 Sobre o projeto
 
@@ -8,8 +8,7 @@ O **PDV SV MAXGUI-2** é um sistema de ponto de venda em desenvolvimento com Fla
 
 O objetivo é evoluir para uma aplicação completa de gestão comercial para pequenos e médios negócios, incluindo controle de vendas, estoque e usuários.
 
-Ele será *100% gratis*
-
+O PDV SV MAXGUI-2 é um sistema gratuito para uso em pequenos, médios e grandes negócios.
 ---
 
 ## ⚙️ Status das funcionalidades
@@ -92,13 +91,16 @@ site_PDV_SV_MAXGUI-2/
 ```
 ---
 
-## 📚 bibliotecas
+## 📸 Demonstração do sistema
 
+### 🏠 Tela inicial
+![Home 1](static/imagens/prints/home1.png)
+![Home 2](static/imagens/prints/home2.png)
+![Home 3](static/imagens/prints/home3.png)
+![Home 4](static/imagens/prints/home4.png)
 
-🟢 utilizadas
-
-
-🟡 possivelmente serão utilizadas
+### banner cookies
+![Banner cookies](static/imagens/prints/cookies.png)
 
 ---
 
@@ -109,7 +111,6 @@ site_PDV_SV_MAXGUI-2/
 ```bash
 pip install flask
 ```
-
 ---
 
 ### 2. Rodar o sistema
@@ -117,7 +118,6 @@ pip install flask
 ```bash
 python app.py
 ```
-
 ---
 
 ### 3. Acessar no navegador
@@ -125,7 +125,6 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
-
 ---
 
 ## 📌 Informações do projeto
@@ -146,19 +145,36 @@ http://127.0.0.1:5000
 
 ---
 
-## 📄 Observações
+## 📚 bibliotecas
 
-Este projeto está em fase inicial de desenvolvimento e passará por melhorias contínuas ao longo do tempo.
+🟢 utilizadas
+
+🟡 possivelmente serão utilizadas
 
 ---
 
-## 📸 Demonstração do sistema
+## 🤝 Contribuição
 
-### 🏠 Tela inicial
-![Home 1](static/imagens/prints/home1.png)
-![Home 2](static/imagens/prints/home2.png)
-![Home 3](static/imagens/prints/home3.png)
-![Home 4](static/imagens/prints/home4.png)
+###Contribuições são bem-vindas!
 
-### banner cookies
-![Banner cookies](static/imagens/prints/cookies.png)
+Se quiser ajudar no projeto:
+
+- Faça um fork do repositório
+- Crie uma branch com sua melhoria
+- Envie um pull request
+
+Sugestões, ideias e melhorias também podem ser enviadas via Issues.
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob a **Apache License 2.0**.
+
+Você pode usar, modificar e distribuir este projeto, desde que siga os termos da licença e mantenha os devidos créditos ao autor.
+
+---
+
+## 📄 Observações
+
+Este projeto está em fase inicial de desenvolvimento e passará por melhorias contínuas ao longo do tempo.
