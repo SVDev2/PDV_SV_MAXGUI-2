@@ -59,9 +59,12 @@ site_PDV_SV_MAXGUI-2/
         rotas.html
         cookies.html
         idioma_config.html
+        recupera_senha.html
         includes/
+            footer.html
             banner_cookies.html
             propagandas_slide.html
+            em_desenvolvimento.html
     static/
         css/
             main.css
@@ -71,6 +74,10 @@ site_PDV_SV_MAXGUI-2/
             fundos/
                 xxxxxxxxxx.jpg.ico.jpeg...
             logos/
+                xxxxxxxxxx.jpg.ico.jpeg...
+            icones/
+                xxxxxxxxxx.jpg.ico.jpeg...
+            prints/
                 xxxxxxxxxx.jpg.ico.jpeg...
         js/
             propagandas_slide.js
