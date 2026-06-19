@@ -1,4 +1,6 @@
-# ![PDV](/static/imagens/logos/logo.png) **PDV SV MAXGUI-2**
+![PDV](static/imagens/logos/logo.png)
+
+#**PDV SV MAXGUI-2**
 
 ## 🚀 Sobre o projeto
 
