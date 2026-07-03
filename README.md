@@ -65,11 +65,25 @@ site_PDV_SV_MAXGUI-2/
             banner_cookies.html
             propagandas_slide.html
             em_desenvolvimento.html
+        erros/
+            401.html
+            403.html
+            404.html
+            410.html
+            500.html
+            502.html
+            503.html
+            504.html
     static/
         css/
+            responsivo.css
+            fundos.css
+            cores.css
             main.css
         imagens/
             propagandas/
+                xxxxxxxxxx.jpg.ico.jpeg...
+            usuarios/
                 xxxxxxxxxx.jpg.ico.jpeg...
             fundos/
                 xxxxxxxxxx.jpg.ico.jpeg...
@@ -87,14 +101,21 @@ site_PDV_SV_MAXGUI-2/
             vendas.js
             main.js
             login.js
+        sons/
+            xxxxxxxxxx.wav.flac.mp3.m4a...
     dados/
         banco.py
     managers/
         login.py
         relatorios.py
         produtos.py
+    SV_AI/
     app.py
+    converte_favicon.py
+    README.md
+    LICENSE
     anotação_PDV.txt
+    requirements.txt
 ```
 ---
 
@@ -215,6 +236,8 @@ Você pode usar, modificar e distribuir este projeto, desde que siga os termos d
 
 Este projeto está em fase inicial de desenvolvimento e passará por melhorias contínuas ao longo do tempo.
 
+---
+versão 0.3.16 Alpha
 ---
 
 © 2026 PDV SV MAXGUI-2.
