@@ -1,0 +1,53 @@
+.fundos{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    opacity: 0.1;
+    z-index: -1;}
+
+/* logos do PDV */
+.logo_fundo_claro{
+    background-image: url("/static/imagens/fundos/logo.jpg");
+}
+    
+.logo_fundo_escuro{
+    background-image: url("/static/imagens/fundos/logo_invert.jpg");}
+    
+    
+/* personalizadas pré-definidas */
+.fundo_carro_mer{
+    background-image: url("/static/imagens/fundos/.jpg");}
+
+.fundo_pistao{
+    background-image: url("/static/imagens/fundos/.jpg");}
+
+.fundo_marmitex{
+    background-image: url("/static/imagens/fundos/.jpg");}
+
+.fundo_madeira{
+    background-image: url("/static/imagens/fundos/.jpg");}
+
+.fundo_vidros{
+    background-image: url("/static/imagens/fundos/.jpg");}
+
+/* Personalizadas adicionadas pelo usuário (max 5) */
+.fundo_user_1{
+    background-image: url("/static/imagens/fundos/.jpg");}
+    
+    
+/* Fundos coloridos simples (CSS) */
+
+.fundo_vermelho {color: red; }
+.fundo_azul { color: blue; }
+.fundo_preto {color: black;}
+.fundo_branco {color: white}
+
+/* Fundos mesclados (CSS) */
+
+.fundo_preto_cinza {
+    background-image: radial-gradient(#000, #878484)}

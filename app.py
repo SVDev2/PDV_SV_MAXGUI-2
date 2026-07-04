@@ -67,6 +67,38 @@ def slide():
 @app.route("/desenvolvimento")
 def desenvolvimento():
     return render_template("includes/em_desenvolvimento.html")
+    
+@app.route("/401")
+def error401():
+    return render_template("erros/401.html")
+    
+@app.route("/403")
+def error403():
+    return render_template("erros/403.html")
+    
+@app.route("/404")
+def error404():
+    return render_template("erros/404.html")
+    
+@app.route("/410")
+def error410():
+    return render_template("erros/410.html")
+    
+@app.route("/500")
+def error500():
+    return render_template("erros/500.html")
+    
+@app.route("/502")
+def error502():
+    return render_template("erros/502.html")
+    
+@app.route("/503")
+def error503():
+    return render_template("erros/503.html")
+
+@app.route("/504")
+def error504():
+    return render_template("erros/504.html")
 
 if __name__ == "__main__":
     banco()
