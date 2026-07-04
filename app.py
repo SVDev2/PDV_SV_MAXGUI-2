@@ -15,83 +15,83 @@ def add_header(response):
 @app.route("/")
 def inicio():
     return render_template("inicio.html")
-    
+
 @app.route("/sobre")
 def sobre():
     return render_template("sobre.html")
-    
+
 @app.route("/entrar")
 def entrar():
     return render_template("entrar.html")
-    
+
 @app.route("/cadastrar")
 def cadastrar():
     return render_template("cadastrar.html")
-    
+
 @app.route("/privacidade")
 def privacidade():
     return render_template("privacidade.html")
-    
+
 @app.route("/termos")
 def termos():
     return render_template("termos.html")
-    
+
 @app.route("/doacao")
 def doacao():
     return render_template("doacao.html")
-    
+
 @app.route("/configuracoes")
 def configuracoes():
     return render_template("configuracoes.html")
-    
+
 @app.route("/rotas")
 def rotas():
     return render_template("rotas.html")
-    
+
 @app.route("/cookies")
 def cookies():
     return render_template("cookies.html")
-    
+
 @app.route("/banner")
 def banner():
     return render_template("includes/banner_cookies.html")
-    
+
 @app.route("/redefinir-senha")
 def recuparaS():
     return render_template("recupera_senha.html")
-    
+
 @app.route("/propagandas-slide")
 def slide():
     return render_template("includes/propagandas_slide.html")
-    
+
 @app.route("/desenvolvimento")
 def desenvolvimento():
     return render_template("includes/em_desenvolvimento.html")
-    
+
 @app.route("/401")
 def error401():
     return render_template("erros/401.html")
-    
+
 @app.route("/403")
 def error403():
     return render_template("erros/403.html")
-    
+
 @app.route("/404")
 def error404():
     return render_template("erros/404.html")
-    
+
 @app.route("/410")
 def error410():
     return render_template("erros/410.html")
-    
+
 @app.route("/500")
 def error500():
     return render_template("erros/500.html")
-    
+
 @app.route("/502")
 def error502():
     return render_template("erros/502.html")
-    
+
 @app.route("/503")
 def error503():
     return render_template("erros/503.html")

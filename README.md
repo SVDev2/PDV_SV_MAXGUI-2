@@ -50,21 +50,24 @@ site_PDV_SV_MAXGUI-2/
     templates/
         inicio.html
         sobre.html
-        entrar.html
-        cadastrar.html
         privacidade.html
         termos.html
         doacao.html 
-        configuracoes.html
         rotas.html
         cookies.html
-        idioma_config.html
-        recupera_senha.html
+        auth/
+            entrar.html
+            cadastrar.html
+            recupera_senha.html
         includes/
             footer.html
+            header.html
             banner_cookies.html
             propagandas_slide.html
             em_desenvolvimento.html
+        configuracoes/
+            configuracoes.html
+            idioma_config.html
         erros/
             401.html
             403.html
