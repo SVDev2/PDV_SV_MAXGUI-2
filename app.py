@@ -22,11 +22,11 @@ def sobre():
 
 @app.route("/entrar")
 def entrar():
-    return render_template("entrar.html")
+    return render_template("auth/entrar.html")
 
 @app.route("/cadastrar")
 def cadastrar():
-    return render_template("cadastrar.html")
+    return render_template("auth/cadastrar.html")
 
 @app.route("/privacidade")
 def privacidade():
@@ -42,7 +42,7 @@ def doacao():
 
 @app.route("/configuracoes")
 def configuracoes():
-    return render_template("configuracoes.html")
+    return render_template("configuracoes/configuracoes.html")
 
 @app.route("/rotas")
 def rotas():
@@ -58,7 +58,7 @@ def banner():
 
 @app.route("/redefinir-senha")
 def recuparaS():
-    return render_template("recupera_senha.html")
+    return render_template("auth/rec:upera_senha.html")
 
 @app.route("/propagandas-slide")
 def slide():
@@ -99,6 +99,10 @@ def error503():
 @app.route("/504")
 def error504():
     return render_template("erros/504.html")
+
+@app.route("/header")
+def header():
+    return render_template("includes/header.html")
 
 if __name__ == "__main__":
     banco()

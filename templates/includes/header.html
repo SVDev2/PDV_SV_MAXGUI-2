@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2 | Header</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
+    
+</head>
+<body>
+    
+    <div class="img_mais">
+        <img src="static/imagens/icones/menu.png">
+    </div>
+    
+    <div classe="img_PDV">
+        <img src="static/logos/logo_invert.png"
+    </div>
+    
+    <div classe="img_notif">
+        <img src="static/icones/bell.png"
+    </div>
+    
+    <div classe="img_user"></div>
+
+    {% include "/includes/footer.html" %}
+
+</body>
+</html>

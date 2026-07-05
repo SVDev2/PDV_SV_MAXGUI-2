@@ -79,6 +79,9 @@ site_PDV_SV_MAXGUI-2/
             504.html
     static/
         css/
+            componentes/
+                botoes.css
+            paginas/
             responsivo.css
             fundos.css
             cores.css
@@ -108,6 +111,7 @@ site_PDV_SV_MAXGUI-2/
             xxxxxxxxxx.wav.flac.mp3.m4a...
     dados/
         banco.py
+        backup.py
     managers/
         login.py
         relatorios.py
@@ -240,7 +244,7 @@ Você pode usar, modificar e distribuir este projeto, desde que siga os termos d
 Este projeto está em fase inicial de desenvolvimento e passará por melhorias contínuas ao longo do tempo.
 
 ---
-versão 0.3.16 Alpha
+versão 0.3.18 Alpha
 ---
 
 © 2026 PDV SV MAXGUI-2.

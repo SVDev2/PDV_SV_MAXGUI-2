@@ -13,6 +13,16 @@
 /* logos do PDV */
 .logo_fundo_claro{
     background-image: url("/static/imagens/fundos/logo.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    opacity: 0.1;
+    z-index: -1;
 }
     
 .logo_fundo_escuro{
