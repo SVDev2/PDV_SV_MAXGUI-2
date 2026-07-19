@@ -46,7 +46,7 @@ def configuracoes():
 
 @app.route("/rotas")
 def rotas():
-    return render_template("rotas.html")
+    return render_template("internal/rotas.html")
 
 @app.route("/cookies")
 def cookies():
