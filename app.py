@@ -58,7 +58,7 @@ def banner():
 
 @app.route("/redefinir-senha")
 def recuparaS():
-    return render_template("auth/rec:upera_senha.html")
+    return render_template("auth/recupera_senha.html")
 
 @app.route("/propagandas-slide")
 def slide():

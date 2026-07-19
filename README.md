@@ -77,11 +77,14 @@ site_PDV_SV_MAXGUI-2/
             502.html
             503.html
             504.html
+        internal/
+            internal_report.html
     static/
         css/
             componentes/
                 botoes.css
             paginas/
+                internal_report.css
             responsivo.css
             fundos.css
             cores.css
@@ -101,6 +104,7 @@ site_PDV_SV_MAXGUI-2/
                 xxxxxxxxxx.jpg.ico.jpeg...
         js/
             propagandas_slide.js
+            internal_report.js
             relatorios.js
             produtos.js
             cookies.js
@@ -116,12 +120,14 @@ site_PDV_SV_MAXGUI-2/
         login.py
         relatorios.py
         produtos.py
+        internal_report.py
     SV_AI/
+    docs/
+        anotação_PDV.txt
     app.py
     converte_favicon.py
     README.md
     LICENSE
-    anotação_PDV.txt
     requirements.txt
 ```
 ---
