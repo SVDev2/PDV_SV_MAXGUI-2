@@ -104,6 +104,14 @@ def error504():
 def header():
     return render_template("includes/header.html")
 
+@app.route("/outros-sites")
+def sitesSV():
+    return render_template("sites_SV")
+
+@app.route("/relatorio-interno-sv")
+def internal_report():
+    return render_template("internal/internal_report")
+
 if __name__ == "__main__":
     banco()
     app.run(debug=True, host="0.0.0.0", port=5000)

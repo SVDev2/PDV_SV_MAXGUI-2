@@ -48,13 +48,14 @@ O PDV SV MAXGUI-2 é um sistema gratuito para uso em pequenos, médios e grandes
 ```
 site_PDV_SV_MAXGUI-2/
     templates/
-        inicio.html
-        sobre.html
         privacidade.html
-        termos.html
-        doacao.html 
-        rotas.html
+        sites_SV.html
         cookies.html
+        doacao.html
+        termos.html
+        sobre.html
+        inicio.html
+        rotas.html
         auth/
             entrar.html
             cadastrar.html
@@ -250,7 +251,7 @@ Você pode usar, modificar e distribuir este projeto, desde que siga os termos d
 Este projeto está em fase inicial de desenvolvimento e passará por melhorias contínuas ao longo do tempo.
 
 ---
-versão 0.3.18 Alpha
+versão 0.3.23 Alpha
 ---
 
 © 2026 PDV SV MAXGUI-2.
