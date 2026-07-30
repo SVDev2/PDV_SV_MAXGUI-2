@@ -55,7 +55,6 @@ site_PDV_SV_MAXGUI-2/
         termos.html
         sobre.html
         inicio.html
-        rotas.html
         auth/
             entrar.html
             cadastrar.html
@@ -80,6 +79,7 @@ site_PDV_SV_MAXGUI-2/
             504.html
         internal/
             internal_report.html
+            rotas.html
     static/
         css/
             componentes/

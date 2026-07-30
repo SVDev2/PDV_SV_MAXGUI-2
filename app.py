@@ -104,7 +104,7 @@ def error504():
 def header():
     return render_template("includes/header.html")
 
-@app.route("/outros-sites")
+@app.route("/sites-SV")
 def sitesSV():
     return render_template("sites_SV")
 
