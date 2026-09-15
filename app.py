@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from dados.banco import banco
+from dados.banco import *
 
 app = Flask(__name__)
 
@@ -106,12 +106,12 @@ def header():
 
 @app.route("/sites-SV")
 def sitesSV():
-    return render_template("sites_SV")
+    return render_template("sites_SV.html")
 
 @app.route("/relatorio-interno-sv")
 def internal_report():
-    return render_template("internal/internal_report")
+    return render_template("internal/internal_report.html")
 
 if __name__ == "__main__":
-    banco()
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    banco_caixa()
+    app.run(debug=True, host="127.0.0.1", port=5000)

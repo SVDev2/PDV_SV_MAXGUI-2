@@ -1,5 +1,5 @@
 from datetime import datetime
-from banco import *
+from dados.banco import *
 import hashlib
 import secrets
 

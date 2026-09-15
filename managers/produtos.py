@@ -1,1 +1,1 @@
-from banco import *
+from dados.banco import *
