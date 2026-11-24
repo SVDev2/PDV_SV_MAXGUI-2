@@ -1,4 +1,4 @@
-![PDV](static/imagens/logos/logo.png)
+![PDV](static/imagens/logos/logo.jpg)
 
 # **PDV SV MAXGUI-2**
 
@@ -80,6 +80,11 @@ site_PDV_SV_MAXGUI-2/
         internal/
             internal_report.html
             rotas.html
+    config-json/
+        versao.json
+        idomas-json/
+            pt-br.json
+            en.json
     static/
         css/
             componentes/
@@ -121,6 +126,7 @@ site_PDV_SV_MAXGUI-2/
         login.py
         relatorios.py
         produtos.py
+        configuracoes.py
         internal_report.py
     SV_AI/
     docs/
@@ -136,13 +142,10 @@ site_PDV_SV_MAXGUI-2/
 ## 📸 Demonstração do sistema
 
 ### 🏠 Tela inicial
-![Home 1](static/imagens/prints/home1.png)
-![Home 2](static/imagens/prints/home2.png)
-![Home 3](static/imagens/prints/home3.png)
-![Home 4](static/imagens/prints/home4.png)
+    (quando disponivel será adicionadas as imagens...)
 
 ### banner cookies
-![Banner cookies](static/imagens/prints/cookies.png)
+    (quando disponivel será adicionadas as imagens...)
 
 ---
 
@@ -151,7 +154,7 @@ site_PDV_SV_MAXGUI-2/
 ### 1. Instalar dependências
 
 ```bash
-pip install flask
+
 ```
 ---
 

@@ -1,0 +1,188 @@
+
+{
+  "geral": {
+    "nome_sistema": "PDV SV MAXGUI-2",
+    "entrar": "Log in",
+    "cadastrar": "Sign up",
+    "salvar": "Save",
+    "cancelar": "Cancel",
+    "editar": "Edit",
+    "excluir": "Delete",
+    "voltar": "Back",
+    "pesquisar": "Search",
+    "sim": "Yes",
+    "nao": "No",
+    "email": "Email",
+    "telefone": "Phone",
+    "senha": "Password",
+    "nome": "Name",
+    "versao": "Version",
+    "direitos": "All rights reserved.",
+    "desenvolvimento_continuo": "Ongoing development"
+  },
+
+  "inicio": {
+    "boas_vindas": "Welcome!",
+    "descricao": "Your best complete POS and ERP system",
+    "tutorial": "▶ User Guide",
+    "cordel_titulo": "Let me tell you in a few short verses",
+    "cordel_1": "Simple and straightforward,",
+    "cordel_2": "A thoughtfully designed system",
+    "cordel_3": "To make every sale just right.",
+    "cordel_4": "Records sales in a flash,",
+    "cordel_5": "Brings more order to your work",
+    "cordel_6": "And control to management.",
+    "cordel_7": "If you already have an account",
+    "cordel_8": "You can simply log in,",
+    "cordel_9": "If you don't have access yet",
+    "cordel_10": "You can sign up too."
+  },
+
+  "cookies": {
+    "aviso": "This website uses cookies to ensure you have the best possible experience. Learn more in our",
+    "politica_link": "Cookie Policy",
+    "aceitar_todos": "Accept all",
+    "selecionar": "Customize",
+    "apenas_essenciais": "Essential only"
+  },
+
+  "footer": {
+    "copyright": "© 2026 PDV SV MAXGUI-2. All rights reserved.",
+    "duvidas": "Questions? Contact us by email:",
+    "patrocinador": "Would you like to become a sponsor? Contact us by email:",
+    "redes_sociais": "Follow us on all our social media:",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "kwai": "Kwai",
+    "facebook": "Facebook",
+    "outros_links": "Other links",
+    "sobre": "About the project",
+    "privacidade": "Privacy Policy",
+    "termos": "Terms of Use",
+    "cookies": "Cookie Policy",
+    "apoiar": "Support the project",
+    "tutorial": "User Guide",
+    "github": "View on GitHub",
+    "outros_sites": "Other SV websites",
+    "email_duvidas": "duvida@pdv.sm2@gmail.com",
+    "email_patrocinio": "patrocinio@pdv.sm2@gmail.com",
+    "versao": "version 0.3.23 Alpha"
+  },
+
+  "auth": {
+    "entrar": {
+      "titulo": "LOG IN",
+      "usuario": "Username:",
+      "exemplo_usuario": "e.g.: John",
+      "senha": "Password:",
+      "exemplo_senha": "e.g.: abc123",
+      "estabelecimento": "Business:",
+      "exemplo_estabelecimento": "e.g.: PDstore",
+      "botao": "Log in",
+      "esqueceu_senha": "➡Forgot your password?",
+      "sem_conta": "➡Don't have an account?",
+      "slogan_1": "YOUR POS",
+      "slogan_2": "MORE EFFICIENCY, BETTER RESULTS."
+    },
+
+    "cadastrar": {
+      "titulo": "SIGN UP",
+      "tipo_login": "Choose the login type:",
+      "adm_pro": "Pro Admin",
+      "dados_responsavel": "Account Holder Information",
+      "nome_completo": "Full name:",
+      "exemplo_nome": "e.g.: John Smith",
+      "cpf": "CPF:",
+      "exemplo_cpf": "e.g.: 000.000.000-00",
+      "telefone": "Phone:",
+      "exemplo_telefone": "e.g.: (55) 00 9.0000-0000",
+      "email": "Email:",
+      "exemplo_email": "e.g.: 123abc@gmail.com",
+      "senha": "Password:",
+      "exemplo_senha": "e.g.: abc123",
+      "confirmar_senha": "Confirm password:",
+      "exemplo_confirmar_senha": "e.g.: abc123",
+      "dados_estabelecimento": "Business Information",
+      "nome_estabelecimento": "Name:",
+      "exemplo_estabelecimento": "e.g.: PDstore",
+      "cpf_cnpj": "CPF/CNPJ:",
+      "email_obrigatorio": "Email:*"
+    }
+  },
+
+  "privacidade": {
+    "titulo": "Privacy Policy",
+    "data_termo": "Date of this policy: March 6, 2026",
+
+    "introducao_titulo": "1. Introduction",
+    "introducao_texto": "This Privacy Policy describes how the PDV SV MAXGUI-2 system collects, uses, stores, and protects users' information. Our goal is to ensure transparency, security, and respect for privacy, following good data protection practices and the principles of Brazilian legislation. By using the system, users acknowledge that they are aware of this policy.",
+
+    "responsavel_titulo": "2. System Operator",
+    "responsavel": "System Operator: SER VIVO",
+    "sistema": "System: PDV SV MAXGUI-2",
+
+    "dados_titulo": "3. Data Collected",
+    "autenticacao_titulo": "Authentication Data",
+    "nome_usuario": "Username",
+    "senha_protegida": "Protected password",
+    "identificacao_sessao": "Session identification",
+    "uso_autenticacao": "This data is used to control access to the system.",
+
+    "uso_sistema_titulo": "System Usage Data",
+    "uso_sistema_intro": "The system may record:",
+    "data_horario": "access date and time",
+    "frequencia_acesso": "access frequency",
+    "tempo_sessao": "session duration",
+    "paginas_utilizadas": "pages visited",
+    "funcionalidades_acessadas": "features accessed",
+    "uso_estatisticas": "This data is used to improve the system and enhance security.",
+
+    "operacionais_titulo": "Operational Data",
+    "operacionais_intro": "The system may also store data related to operations performed, such as:",
+    "vendas": "sales",
+    "produtos_cadastrados": "registered products",
+    "relatorios_administrativos": "administrative reports",
+    "registros_operacionais": "POS operational records",
+
+    "cookies_titulo": "4. Use of Cookies",
+    "cookies_intro": "The system may use cookies and similar technologies to:",
+    "manter_autenticado": "keep users authenticated",
+    "lembrar_login": "remember login preferences",
+    "registrar_sessoes": "record usage sessions",
+    "estatisticas": "collect usage statistics",
+    "cookies_explicacao": "Cookies are small files stored in the user's browser. Users can configure their browsers to block"
+  },
+
+  "sobre": {
+    "titulo": "About",
+    "descricao": "PDV SV MAXGUI-2 is a point-of-sale (POS) system developed with a focus on organization, security, and technical learning. Created by SER VIVO, the project offers a complete, practical, and modular platform, allowing integration with other systems under the SV brand. This project is currently in Alpha version and is under continuous development. All features have been designed to ensure data security, efficient access control, and reliability in sales processing. The system must not be commercialized or sold. Once it reaches the minimum required level of usability and security, it will be made available to the public on the web, especially for small businesses just getting started, while also remaining available to larger companies. Our goal is to help those starting out succeed, especially those who cannot afford paid POS systems, while striving to create one of the best point-of-sale systems ever made, completely free of charge.",
+
+    "detalhes": "Details:",
+    "versao": "Version: 0.3.2 Alpha",
+    "nome_projeto": "Project name: PDV SV MAXGUI-2",
+    "data_inicio": "Project start date: January 25, 2026",
+    "termino": "Project completion: Ongoing development",
+    "apoiadores": "Supporters: ~",
+    "tipo": "Type: Web",
+    "programadores": "Developers: SER VIVO",
+    "ideia": "Created by: SER VIVO",
+    "nome_real": "SER VIVO's real name: Dennis Alexandre",
+    "classificacao": "Content rating: Technical/General",
+
+    "ferramentas": "Tools/Technologies used:",
+    "linguagens": "Languages: Python, HTML, CSS, JavaScript",
+    "framework": "Framework: Flask",
+    "banco_dados": "Database: SQLite",
+    "responsivo": "Responsive front end for mobile phones and desktops"
+  },
+
+  "menu": {
+    "inicio": "Home",
+    "entrar": "Log in",
+    "cadastrar": "Sign up",
+    "configuracoes": "Settings",
+    "sobre": "About",
+    "sair": "Log out"
+  }
+}

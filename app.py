@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from managers.configuracoes import carregar_versao
 from dados.banco import *
 
 app = Flask(__name__)
@@ -11,9 +12,13 @@ def add_header(response):
     response.headers["Pragma"] = "no-cache"
     response.headers["Expires"] = "0"
     return response
+    
+@app.context_processor
+def info_globais():
+    return {"versao": carregar_versao()}
 
 @app.route("/")
-def inicio():
+def home():
     return render_template("inicio.html")
 
 @app.route("/sobre")

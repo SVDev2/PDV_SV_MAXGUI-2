@@ -1,8 +1,20 @@
-from datetime import datetime
+from argon2 import PasswordHasher
+from argon2.exceptions import (VerifyMismatchError, VerificationError, InvalidHashError)
 from dados.banco import *
-import hashlib
 import secrets
 
-def gerar_hash(senha):
-    return hashlib.sha256(senha.encode('utf-8')).hexdigest()
-    
+
+ph = PasswordHasher()
+
+
+def hash_password(senha):
+    return ph.hash(senha)
+
+
+def verification_password(senha, hash_senha):
+    try:
+        return ph.verify(hash_senha, senha)
+    except VerifyMismatchError:
+        return False
+    except (VerificationError, InvalidHashError):
+        return False
