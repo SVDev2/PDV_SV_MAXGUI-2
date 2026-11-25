@@ -1,8 +1,12 @@
 from flask import Flask, render_template
 from managers.configuracoes import carregar_versao
-from dados.banco import *
+############
+from blueprints.mensagens.errors import errors_bp
+from blueprints.interno.interno import intern_bp
 
 app = Flask(__name__)
+app.register_blueprint(errors_bp)
+app.register_blueprint(intern_bp)
 
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
@@ -49,10 +53,6 @@ def doacao():
 def configuracoes():
     return render_template("configuracoes/configuracoes.html")
 
-@app.route("/rotas")
-def rotas():
-    return render_template("internal/rotas.html")
-
 @app.route("/cookies")
 def cookies():
     return render_template("cookies.html")
@@ -73,38 +73,6 @@ def slide():
 def desenvolvimento():
     return render_template("includes/em_desenvolvimento.html")
 
-@app.route("/401")
-def error401():
-    return render_template("erros/401.html")
-
-@app.route("/403")
-def error403():
-    return render_template("erros/403.html")
-
-@app.route("/404")
-def error404():
-    return render_template("erros/404.html")
-
-@app.route("/410")
-def error410():
-    return render_template("erros/410.html")
-
-@app.route("/500")
-def error500():
-    return render_template("erros/500.html")
-
-@app.route("/502")
-def error502():
-    return render_template("erros/502.html")
-
-@app.route("/503")
-def error503():
-    return render_template("erros/503.html")
-
-@app.route("/504")
-def error504():
-    return render_template("erros/504.html")
-
 @app.route("/header")
 def header():
     return render_template("includes/header.html")
@@ -113,10 +81,5 @@ def header():
 def sitesSV():
     return render_template("sites_SV.html")
 
-@app.route("/relatorio-interno-sv")
-def internal_report():
-    return render_template("internal/internal_report.html")
-
 if __name__ == "__main__":
-    banco_caixa()
     app.run(debug=True, host="127.0.0.1", port=5000)
