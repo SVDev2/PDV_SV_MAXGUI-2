@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2 | erro 408</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
+    
+</head>
+<body>
+    
+    <img src="static/imagens/icones/aviso.png" width=50>
+    <h1>Erro 408></h1>
+    <h3><strong>Tempo de conexão esgotado.</strong></h3>
+    <p>A solicitação demorou muito para chegar ao servidor. Verifique sua conexão e tente novamente.</p>
+
+    {% include "/includes/footer.html" %}
+
+</body>
+</html>

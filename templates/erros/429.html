@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV SV MAXGUI-2 | erro 429</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
+    
+</head>
+<body>
+    
+    <img src="static/imagens/icones/aviso.png" width=50>
+    <h1>Erro 429></h1>
+    <h3><strong>Muitas solicitações em pouco tempo.</strong></h3>
+    <p>Identificamos muitas tentativas de acesso seguidas a partir da sua conexão. Essa pausa é uma medida automática de segurança — aguarde alguns minutos e recarregue a página</p>
+
+    {% include "/includes/footer.html" %}
+
+</body>
+</html>

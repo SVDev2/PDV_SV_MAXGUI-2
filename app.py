@@ -3,19 +3,21 @@ from managers.configuracoes import carregar_versao
 ############
 from blueprints.mensagens.errors import errors_bp
 from blueprints.interno.interno import intern_bp
-
+from blueprints.login_register.login_register import login_bp
+############
 app = Flask(__name__)
 app.register_blueprint(errors_bp)
 app.register_blueprint(intern_bp)
+app.register_blueprint(login_bp)
 
-app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+#app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
-@app.after_request
-def add_header(response):
-    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
-    response.headers["Pragma"] = "no-cache"
-    response.headers["Expires"] = "0"
-    return response
+#@app.after_request
+#def add_header(response):
+#    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+#    response.headers["Pragma"] = "no-cache"
+#    response.headers["Expires"] = "0"
+#    return response
     
 @app.context_processor
 def info_globais():
@@ -28,14 +30,6 @@ def home():
 @app.route("/sobre")
 def sobre():
     return render_template("sobre.html")
-
-@app.route("/entrar")
-def entrar():
-    return render_template("auth/entrar.html")
-
-@app.route("/cadastrar")
-def cadastrar():
-    return render_template("auth/cadastrar.html")
 
 @app.route("/privacidade")
 def privacidade():
@@ -57,25 +51,9 @@ def configuracoes():
 def cookies():
     return render_template("cookies.html")
 
-@app.route("/banner")
-def banner():
-    return render_template("includes/banner_cookies.html")
-
-@app.route("/redefinir-senha")
-def recuparaS():
-    return render_template("auth/recupera_senha.html")
-
-@app.route("/propagandas-slide")
-def slide():
-    return render_template("includes/propagandas_slide.html")
-
 @app.route("/desenvolvimento")
 def desenvolvimento():
     return render_template("includes/em_desenvolvimento.html")
-
-@app.route("/header")
-def header():
-    return render_template("includes/header.html")
 
 @app.route("/sites-SV")
 def sitesSV():

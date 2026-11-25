@@ -1,1 +1,0 @@
-from dados.banco import *

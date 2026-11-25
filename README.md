@@ -69,10 +69,14 @@ site_PDV_SV_MAXGUI-2/
             configuracoes.html
             idioma_config.html
         erros/
+            400.html
             401.html
             403.html
             404.html
+            408.html
             410.html
+            423.html
+            429.html
             500.html
             502.html
             503.html
@@ -85,6 +89,7 @@ site_PDV_SV_MAXGUI-2/
         idomas-json/
             pt-br.json
             en.json
+            es.json
     static/
         css/
             componentes/
@@ -131,6 +136,14 @@ site_PDV_SV_MAXGUI-2/
     SV_AI/
     docs/
         anotação_PDV.txt
+    blueprints/
+        interno/
+            interno.py
+        mensagens/
+            errors.py
+        login_register/
+            login_register.py
+        pages/
     app.py
     converte_favicon.py
     README.md
@@ -254,7 +267,7 @@ Você pode usar, modificar e distribuir este projeto, desde que siga os termos d
 Este projeto está em fase inicial de desenvolvimento e passará por melhorias contínuas ao longo do tempo.
 
 ---
-versão 0.3.23 Alpha
+versão 0.3.103 Alpha
 ---
 
 © 2026 PDV SV MAXGUI-2.
